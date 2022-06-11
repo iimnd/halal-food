@@ -20,24 +20,11 @@ class MyDocument extends Document {
         <body>
           <noscript
             dangerouslySetInnerHTML={{
-              __html: `<iframe src="https://www.googletagmanager.com/ns.html?id=GTM-MN6W52S" height="0" width="0" style="display:none;visibility:hidden"></iframe>`,
+              __html: `<iframe src="https://www.googletagmanager.com/ns.html?id=GTM-PZ9DQT9" height="0" width="0" style="display:none;visibility:hidden"></iframe>`,
             }}
           ></noscript>
-          <script
-            type="text/javascript"
-            src="https://static.typebot.io/typebot-1.0.0.js"
-          ></script>
-          <script
-            dangerouslySetInnerHTML={{
-              __html: `var typebot = Typebot.Chat({publishId: "faq-mj24-mnn49",buttonColor: "#e27d60",buttonIconUrl: "",loadingColors: {chatBackground: "#ffffff",bubbleBackground: "#F7F8FF",typingDots: "#303235",},proactiveMessage: {avatar: "undefined",textContent: "Contact the sales team",delay: 60000,remember: true}});`,
-            }}
-          ></script>
-          <script
-            type="text/javascript"
-            async
-            defer
-            src="https://buttons.github.io/buttons.js"
-          />
+        
+        
           <Main />
           <NextScript />
         </body>

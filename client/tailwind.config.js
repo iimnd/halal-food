@@ -6,11 +6,11 @@ module.exports = {
     extend: {
       colors: {
         primary: {
-          DEFAULT: '#e27d60',
-          light: '#e48a6f',
-          darker: '#cb7056',
+          DEFAULT: '#00bfff',
+          light: '#99e6ff',
+          darker: '#2A669F',
           text: '#FFFFFF',
-          lightest: '#f0beaf',
+          lightest: '#ccf2ff',
         },
         secondary: {
           DEFAULT: '#41b3a3',

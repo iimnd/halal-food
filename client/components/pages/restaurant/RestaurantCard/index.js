@@ -8,8 +8,8 @@ const RestaurantCard = ({
   name,
   information,
   category,
-  place,
   locale,
+  halalStatus
 }) => {
   const description = delve(information, "description");
   return (
@@ -21,11 +21,17 @@ const RestaurantCard = ({
           className="max-h-48 w-full object-cover"
         />
         <div className="bg-white w-full p-4">
-          <p className="text-secondary text-md font-medium">
-            {delve(place, "data.attributes.name")}
+        <p className="text-secondary text-md font-medium">
+        <span className="inline-block py-1.5 px-2.5 ml-50 leading-none text-center whitespace-nowrap align-baseline bg-blue-300 text-sm text-white rounded">{halalStatus}</span>
           </p>
+
+      
           {name && (
-            <p className="text-gray-800 text-xl font-medium mb-2">{name}</p>
+            <h4 className="text-xl font-medium leading-tight text-gray-800 mb-2.5">
+            {name}
+          
+          </h4>
+           
           )}
 
           {description && (
